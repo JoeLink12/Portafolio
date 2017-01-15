@@ -92,3 +92,48 @@ header .contenedor-texto .texto .profesion
   font-size: 25px;
   line-height: 25px;
 }
+
+/*Main*/
+
+.main .contenedor
+{
+  overflow: visible;
+}
+
+.main .acerca-de
+{
+  text-align: center;
+}
+
+.main .acerca-de .foto
+{
+  margin-top: -108px;
+}
+
+.main .acerca-de .foto img
+{
+  vertical-align: top;
+  border-radius: 50%;
+  border: 8px solid rgba(255, 255, 255, 0.3);
+}
+
+.main .acerca-de .texto
+{
+  line-height: 25px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.main .acerca-de .texto .titulo
+{
+  color: #0769ad;
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.main .acerca-de .texto p
+{
+  font-size: 20px;
+  margin-top: 0;
+  color: #323232;
+}
