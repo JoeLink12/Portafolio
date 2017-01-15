@@ -1,3 +1,5 @@
+/*Estilos generales*/
+
 *
 {
   -webkit-box-sizing: border-box;
@@ -25,7 +27,7 @@ body
   overflow: hidden;
 }
 
-/*Header*/
+/*HEADER*/
 
 header
 {
@@ -93,7 +95,9 @@ header .contenedor-texto .texto .profesion
   line-height: 25px;
 }
 
-/*Main*/
+/*MAIN*/
+
+/*Acerca de*/
 
 .main .contenedor
 {
@@ -136,4 +140,72 @@ header .contenedor-texto .texto .profesion
   font-size: 20px;
   margin-top: 0;
   color: #323232;
+}
+
+/*Trabajos*/
+
+.main .trabajos
+{
+  background: #f4f3ff;
+  padding: 20px 0;
+}
+
+.main .trabajos .contenedor
+{
+  overflow: hidden;
+}
+
+.main .trabajos .titulo
+{
+  font-weight: 300;
+  font-size: 30px;
+  color: #000453;
+  text-align: center;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
+
+.main .trabajos .contenedor-trabajos
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo
+{
+  margin-bottom: 40px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .imagen
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .imagen img
+{
+  width: 100%;
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion
+{
+  text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre
+{
+  font-weight: 500;
+  color: #003087;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria
+{
+  font-size: 15px;
+  color: #343434;
 }
