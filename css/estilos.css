@@ -21,7 +21,74 @@ body
 {
   width: 90%;
   max-width: 1000px;
-  background: #1ab1af;
   margin: auto;
   overflow: hidden;
+}
+
+/*Header*/
+
+header
+{
+  background: url(../img/portafolio.jpg), #000c46;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+
+header .menu
+{
+  margin: 40px 20px 40px 0px;
+  text-align: right;
+}
+
+header .menu a
+{
+  margin: 0 20px;
+  color: #fff;
+  padding-bottom: 6px;
+  font-size: 20px;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+}
+
+header .menu a:hover
+{
+  border-bottom: 3px solid #fff;
+}
+
+header .contenedor-texto
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 150px 0;
+}
+
+header .contenedor-texto .texto
+{
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  padding: 27px 71px;
+}
+
+header .contenedor-texto .texto .nombre, header .contenedor-texto .texto .profesion
+{
+  color: #fff;
+  font-weight: 300;
+  margin: 0;
+}
+
+header .contenedor-texto .texto .nombre
+{
+  margin-bottom: 15px;
+  font-size: 45px;
+  line-height: 50px;
+}
+
+header .contenedor-texto .texto .profesion
+{
+  font-size: 25px;
+  line-height: 25px;
 }
