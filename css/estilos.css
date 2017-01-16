@@ -331,3 +331,82 @@ footer .redes-sociales .github:hover
 {
   background: #6e5494;
 }
+
+/*MEDIA QUERYS*/
+
+@media screen and (max-width: 800px)
+{
+  header .menu
+  {
+    text-align: center;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo
+  {
+    width: 46%;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre
+  {
+    font-size: 17px;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria
+  {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 500px)
+{
+  header .menu a
+  {
+    font-size: 16px;
+    margin: 0 10px;
+
+  }
+  header .contenedor-texto .texto .nombre
+  {
+    font-size: 35px;
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+  header .contenedor-texto .texto .profesion
+  {
+    font-size: 20px;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre
+  {
+    font-size: 14px;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria
+  {
+    font-size: 12px;
+  }
+  footer .redes-sociales .contenedor
+  {
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 400px)
+{
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre
+  {
+    font-size: 12px;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria
+  {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 340px)
+{
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre
+  {
+    font-size: 11px;
+  }
+  .main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria
+  {
+    font-size: 9px;
+  }
+}
